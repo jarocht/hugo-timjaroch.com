@@ -5,6 +5,7 @@ draft: true
 toc: false
 images:
 tags:
-  - untagged
+  - Hello World
 ---
 
+This is the proverbial hello world as I learn Hugo. Welcome! Please feel free to check out the 'About Me' page.

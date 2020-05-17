@@ -11,14 +11,14 @@ paginate     = 10
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Subtitle for home
-  homeSubtitle = "A simple and beautiful blog"
+  homeSubtitle = "Welcome to my blog, portfolio, and store"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
+  description = "Tim Jaroch personal website and blog. I use this site to document my personal and professional life. I also sell my designs from time to time."
+  keywords = "homepage, blog, ecommerce, 3d printer, laser, cnc, design, consulting, engineer, sales"
   images = [""]
 
   # Default theme "light" or "dark"
@@ -31,21 +31,37 @@ paginate     = 10
 
 [languages]
   [languages.en]
-    title = "Hello Friend NG"
-    subtitle = "A simple theme for Hugo"
+    title = "Tim Jaroch"
+    subtitle = "A personal domain for a professional human"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "hello friend ng"
+      logoText = "/home $ cd "
       logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+      logoCursorColor    = "#68ca68"
+      logoCursorAnimate  = "1s"
+
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:me@timjaroch.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/jarocht"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/timjaroch"
+
 
   # And you can even create generic menu
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
   [[menu.main]]
     identifier = "blog"
     name       = "Blog"
