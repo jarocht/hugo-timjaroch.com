@@ -1,11 +1,11 @@
 +++
+aliases = ["about-us", "contact"]
+date = 2020-05-17T16:57:00Z
 title = "About Me"
-date = "2020-05-17"
-aliases = ["about-us","contact"]
-[ author ]
-  name = "Tim Jaroch"
-+++
+[author]
+name = "Tim Jaroch"
 
++++
 I am a self-starter, curious thinker, and strong leader with a history of solving unique challenges. I have a track record of success bringing new enterprise products to market with direct results in sales, enablement, product marketing, and engineering. As a seasoned engineer I now consult on best practices for performance engineering, people process improvement, and adoption of emergent technologies like IoT. Most recently I am focused on my team of leaders @ AppD and helping them influence at a global scale.
 
 
